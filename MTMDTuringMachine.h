@@ -37,8 +37,6 @@ public:
 
     std::vector<TMTape> tapes;
     FiniteControl control;
-
-    explicit MTMDTuringMachine(const std::vector<TMTape> &tapes) : tapes(tapes) {}
 };
 
 
